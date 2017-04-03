@@ -1,0 +1,92 @@
+@import url('https://fonts.google.com/specimen/Open+Sans+Condensed?selection.family=Open+Sans+Condensed:300');
+
+
+
+html { 
+  background: url(../images/background3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+.container{
+	width: 50%;
+	background: #d3d3d3;
+	margin: 15px auto;
+	display: block;
+	padding: 5px 10px;
+	border-width: 1px;
+	border-radius: 6px;
+	border-style: solid;
+	border-color: #84DBFF;
+	text-align: center;
+}
+input{
+	font-family: 'Open Sans Condensed', sans-serif;
+	-webkit-appearance: none; 
+    -moz-appearance: none; 
+	margin-bottom: 20px;
+	background-color: #84DBFF;
+	color: #FF7058;
+	border-style: solid;
+	border-color: #FF7058;
+	border-radius: 6px;
+	border-width: 2px;
+	font-size: 20px;
+}
+label{
+	color: 	#FF7058;
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.button{
+	text-decoration: none;
+	background-color: #FF7058;
+	color: #d3d3d3;
+	padding: 5px 10px; 
+	border-width: 3px;
+	border-style: solid;
+	border-color: #FF7058;
+	border-radius: 6px;
+	font-size: 20px;
+
+}
+.button:hover{
+	background-color: #84DBFF;
+	color: #FF7058;
+	transition: 0.6s;
+	border-color: #84DBFF;
+}
+.logo{
+	float: left;
+	width: 50px;
+	height: auto;
+	margin: 0 auto;
+	display: inline;
+	padding-left: 10px;
+
+}
+nav{
+	position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+	float: right;
+	padding-right: 10px;
+
+}
+.menu{
+	width: 60%;
+	height: 55px;
+	margin: 0 auto;
+	display: block;
+	background-color: #84DBFF;
+	position: fixed;
+	left: 20%;
+	right: 20%;
+	border-style: solid;
+	border-radius: 6px;
+	border-color: #84DBFF
+}
